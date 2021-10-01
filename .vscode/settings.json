@@ -2,7 +2,7 @@
 
   "editor.fontSize": 18,
   "terminal.integrated.fontSize": 16,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
   },
@@ -11,5 +11,11 @@
       "javascriptreact",
       "html",
       "typescriptreact"
-   ],
+  ],
+  "prettier.jsxSingleQuote": true,
+  "prettier.useTabs": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
